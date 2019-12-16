@@ -1,10 +1,10 @@
 ---
 title: "Case study 1"
 date: 2019-10-10
-tags: [data wrangling, data science, messy data]
+tags: [NLP, Text analysis, Sentiment Analysis]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Analysing retuarent reviews "
+excerpt: "Analysing retaurent reviews "
 mathjax: "true"
 ---
 
