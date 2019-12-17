@@ -1,5 +1,7 @@
 
 
+
+
 ```python
 # import data.
 import matplotlib.pyplot as plt
@@ -8,12 +10,6 @@ import seaborn as sns
 import numpy as np
 import re
 df= pd.read_csv('/Users/ali/review.csv',header=0, encoding='latin1')
-df['review'] = df['text']
-# create new colums for each season if months match conditions.
-df['winter'] = df['review_date'].apply(lambda x : 'winter' if re.findall(r'^\d*', x)[0] in ['12','1','2'] else np.nan)
-df['summer'] = df['review_date'].apply(lambda x : 'summer' if re.findall(r'^\d*', x)[0] in ['6','7','8'] else np.nan)
-df['fall'] = df['review_date'].apply(lambda x : 'fall' if re.findall(r'^\d*', x)[0] in ['9','10','11'] else np.nan)
-df['spring'] = df['review_date'].apply(lambda x : 'spring' if re.findall(r'^\d*', x)[0] in ['3','4','5'] else np.nan)
 ```
 
 # Topics Classification.
