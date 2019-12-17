@@ -1,6 +1,11 @@
-
-
-
+...
+title: " Case Study 1 - Analysis of restaurent revies based on Yelp Dataset " 
+date : 2019-11-15 
+tags : [NLP,Text Analysis,Machine learning] 
+header: image: "/images/light.jpg" 
+excerpt: "Data cleaning,Schema creation,Machine learning" 
+mathjax: "true"
+...
 
 ```python
 # import data.
