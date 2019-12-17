@@ -87,7 +87,7 @@ author:
   name             : "Mushtaq Ali"
   avatar           : "/images/self.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
-  location         : "Heidelberg Germany"
+  location         : "Heidelberg , Germany"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
